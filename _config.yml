@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+pygments: false
 markdown: redcarpet
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
@@ -11,14 +11,14 @@ excerpt_separator: "<!--more-->"
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : John Doe Website
+title : liaoljのblog 
 tagline: Site Tagline
 author :
-  name : John Doe
-  email : john.doe@gitmail.org
-  github : johndoe
-  twitter : johndoe
-  feedburner : johndoefeedname
+  name : liaolj 
+  email : lj.liao2012@gitmail.org
+  github : liaolj
+  twitter : 
+  feedburner : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -28,7 +28,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://johndoe.github.io
+production_url : http://liaolj.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
