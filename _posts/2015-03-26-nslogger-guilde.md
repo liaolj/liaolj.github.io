@@ -24,24 +24,26 @@ LoggerClient.h LoggerClient.m LoggerCommon.h NSLogger.h
 ##### 在AppDelegate.m 文件添加
 * 引用头文件
 
-```
+```python
     #import "LoggerClient.h"
 ```
 
 * didFinishLaunchingWithOptions函数中添加 如下代码
 
-```
+```python
     LoggerSetViewerHost(NULL, (CFStringRef)@"127.0.0.1", (UInt32)50000);
 ```
 
 ##### 在ViewController.m 文件添加
 * 引用头文件
 
+```python
     #import "LoggerClient.h"
+```
     
 * 在 viewDidLoad 函数下添加
 
-``` 
+```python
     LogMessage(@"net", 1, @"This is for net tag");
     LogMessage(@"audio", 1, @"This is for audio tag");
 ```
