@@ -10,7 +10,9 @@ tags: []
 
 NSLogger 的使用
 ===
-![image](https://github.com/liaolj/liaolj.github.io/tree/master/image/nslogger/logDemoRelease_2.gif)
+
+![image](https://github.com/liaolj/liaolj.github.io/blob/master/image/nslogger/logDemoRelease_2.gif)
+
 ### 一、 创建新项目logDemo
 
 ### 二、 添加NSLogger 相关文件文件
