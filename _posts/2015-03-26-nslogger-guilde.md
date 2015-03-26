@@ -21,6 +21,7 @@ NSLogger 的使用
 LoggerClient.h LoggerClient.m LoggerCommon.h NSLogger.h
 
 ### 三、. 添加NSLogger头文件以及配置
+------
 ##### 在AppDelegate.m 文件添加
 * 引用头文件
 
@@ -40,7 +41,7 @@ LoggerClient.h LoggerClient.m LoggerCommon.h NSLogger.h
 ```python
     #import "LoggerClient.h"
 ```
-    
+
 * 在 viewDidLoad 函数下添加
 
 ```python
